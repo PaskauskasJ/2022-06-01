@@ -1,0 +1,74 @@
+body {
+  background-image: url("bananas.png");
+}
+
+.wrapper {
+  width: 50rem;
+  margin: 0 auto;
+}
+header {
+  background-color: rgb(248, 205, 148);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+header img {
+  height: 3.5rem;
+}
+
+header nav a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkslategray;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: yellow;
+  text-decoration: underline;
+}
+
+header nav a:not(:last-child) {
+  margin-right: 1rem;
+}
+
+main {
+  display: flex;
+  margin: 0 auto;
+  background-color: aliceblue;
+}
+
+main section:first-child {
+  flex: 2;
+}
+main section:last-child {
+  flex: 3;
+}
+
+section {
+  padding: 00.5rem;
+}
+
+main section:last-child img {
+  width: 50%;
+  float: left;
+  padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.right {
+  display: flex;
+  justify-content: right;
+  padding-right: 2rem;
+  vertical-align: bottom;
+}
+main section a {
+  background-color: cadetblue;
+  outline-style: groove;
+  padding: 0.8rem;
+}
+footer {
+  text-align: center;
+}
